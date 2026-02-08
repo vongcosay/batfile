@@ -2,6 +2,15 @@
 :: Ten Script: OpenFromClipboard.bat
 :: Chuc nang: Lay duong dan tu Clipboard va mo trong Explorer
 :: Tac gia: Do Nguyen
+:: HƯỚNG DẪN: 
+::    1. Copy một đường dẫn bất kỳ (File hoặc Thư mục).
+::    2. Chạy file .bat này.
+::    3. Explorer sẽ mở đúng vị trí và chọn (highlight) sẵn file bạn đã copy.
+::
+:: VÍ DỤ CÁC ĐƯỜNG DẪN HỖ TRỢ:
+::    - C:\Users\DoNguyen\test.jsx               (Mở thư mục & chọn file)
+::    - C:\Users\DoNguyen\                            (Mở thẳng thư mục)
+::    - "\\DONGUYEN\Do Nguyen\Auto\test.pdf" (Hỗ trợ dấu ngoặc kép & mạng)
 :: ==========================================================
 
 @echo off
@@ -43,4 +52,5 @@ if exist "%clipData%\" (
 )
 
 exit /b
+
 
