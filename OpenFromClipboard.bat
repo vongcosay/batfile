@@ -1,3 +1,9 @@
+:: ==========================================================
+:: Ten Script: OpenFromClipboard.bat
+:: Chuc nang: Lay duong dan tu Clipboard va mo trong Explorer
+:: Tac gia: Do Nguyen
+:: ==========================================================
+
 @echo off
 setlocal enabledelayedexpansion
 
@@ -37,3 +43,4 @@ if exist "%clipData%\" (
 )
 
 exit /b
+
