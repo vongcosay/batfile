@@ -1,5 +1,5 @@
 :: ==========================================================
-:: Ten Script: OpenFromClipboard.bat
+:: Ten Script: MothumucClipboard.bat
 :: Chuc nang: Lay duong dan tu Clipboard va mo trong Explorer
 :: Tac gia: Do Nguyen
 :: HƯỚNG DẪN: 
@@ -52,5 +52,6 @@ if exist "%clipData%\" (
 )
 
 exit /b
+
 
 
